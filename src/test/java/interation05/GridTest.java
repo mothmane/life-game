@@ -112,13 +112,13 @@ public class GridTest {
 		
 		 this.sourceSevenForGrid = new Grid(cells04);
 		 
-		 Cell[][] cells05 = { { c012,c013,c013,c014 },
-				 { c012,c013,c013,c014 },
-				 { c012,c013,c013,c014 },
-				 { c014 ,c013,c013,c014 },
-				 { c015,c013,c013,c014 },
-				 { c016 ,c013,c013,c014 },
-				 { c012,c013,c013,c014 } };
+		 Cell[][] cells05 = { { c012,c011,c011,c011 },
+				 { c012,c012,c012,c012 },
+				 { c012,c012,c012,c012 },
+				 { c011 ,c012,c012,c012 },
+				 { c011,c012,c012,c012 },
+				 { c011 ,c012,c012,c012 },
+				 { c012,c012,c011,c011 } };
 				
 				 this.targetSevenForGrid = new Grid(cells05);
 
@@ -181,7 +181,6 @@ public class GridTest {
 	@Test
 	public void should8_Return_targetSevenForGrid_from_sourceSevenForGrid() {
 		sourceSevenForGrid.evolution();
-
 		Assertions.assertThat(sourceSevenForGrid).isEqualTo(targetSevenForGrid);
 	}
 }
