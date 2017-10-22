@@ -9,7 +9,7 @@ Ce projet a été réalisé en utilisant l'approche TDD Baby Steps.
 
 ## TDD 
 
-Test Driven Developement , (Developpement piloté par les Tests) est une pratiques de l’extreme programming qui préconisent  
+Test Driven Developement , (Developpement piloté par les Tests) est une pratiques de l’extreme programming. 
 
 Le cycle préconisé par le TDD comporte cinq étapes :
 
@@ -18,7 +18,7 @@ Le cycle préconisé par le TDD comporte cinq étapes :
 
 Après la compréhension du problème, de la fonctionnalité à développer, la première question que nous devons nous poser est : 
 
-Qu'elles sont les tests qui, s'ils sont OK, nous permettront de dire que notre solution du problème est valide ?
+Quels sont les tests qui, s'ils sont OK, nous permettront de dire que notre solution du problème est valide ?
 
 ##### 2 vérification que les Tests une fois exécutés sont KO
 
@@ -30,12 +30,16 @@ En effet il faut s'assurer que les Tests ne sont pas Verts par défaut.
 le développement est précis et bien orienté il consiste à développer le code permettant de passer les Tests, la motivation première et de voir du vert lors du passage des tests.
 
 #### 4 validation des Tests
+
 Après exécution des Tests,
-En cas de Vert absolue, passer à l’étape 4 
+
+En cas de Vert absolu, passer à l’étape 4 
+
 Sinon reprendre l'étape 3
 
 #### 5 Amélioration du code 
-Remanier le code , Optimiser le  
+
+Remanier le code , l'optimiser.
 A chaque amélioration repasser les Tests pour s'assurer que nous sommes toujours en Vert.
 
 
