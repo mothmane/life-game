@@ -50,7 +50,7 @@ public class Demo {
 	}
 	
 	public static void main(String[] args) {
-		new Demo().test(args[0]);
+		new Demo().test("/demos/clown");
 	}
 
 }
